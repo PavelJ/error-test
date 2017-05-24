@@ -1,4 +1,4 @@
 {
   "presets": ["babel-preset-expo"],
-  "plugins": ["transform-react-jsx-source", "transform-unicode-property-regex"]
+  "plugins": ["transform-react-jsx-source"]
 }

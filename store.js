@@ -3,7 +3,6 @@ import { combineReducers, createStore, applyMiddleware  } from 'redux';
 import Reducers from './reducers';
 import thunk from 'redux-thunk';
 import createLogger from 'redux-logger';
-import { syncTranslationWithStore } from 'react-redux-i18n';
 
 const createStoreWithNavigation = createNavigationEnabledStore({
   createStore,
@@ -12,6 +11,5 @@ const createStoreWithNavigation = createNavigationEnabledStore({
 const logger = createLogger();
 //const store = createStoreWithNavigation(Reducers, applyMiddleware(thunk, logger));
 const store = createStoreWithNavigation(Reducers, applyMiddleware(thunk));
-syncTranslationWithStore(store)
 
 export default store;

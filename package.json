@@ -12,28 +12,17 @@
   },
   "dependencies": {
     "@expo/ex-navigation": "~3.0.0",
-    "@expo/samples": "~1.0.2",
     "@expo/vector-icons": "~5.0.0",
-    "@ptomasroos/react-native-multi-slider": "0.0.7",
     "expo": "^17.0.0",
-    "jwt-decode": "^2.1.0",
-    "moment": "^2.18.1",
     "react": "16.0.0-alpha.6",
     "react-native": "https://github.com/expo/react-native/archive/sdk-17.0.0.tar.gz",
-    "react-native-country-picker-modal": "github:xcarpentier/react-native-country-picker-modal",
-    "react-native-datepicker": "^1.4.7",
-    "react-native-drawer": "^2.3.0",
-    "react-native-swipeout": "git://github.com/PavelJ/react-native-swipeout.git",
     "react-navigation": "git+https://github.com/react-community/react-navigation.git#7edd9a7",
     "react-redux": "^5.0.1",
-    "react-redux-i18n": "^1.8.0",
     "redux": "^3.6.0",
     "redux-form": "^6.6.3",
-    "redux-thunk": "^2.1.0",
-    "restful.js": "^0.9.6"
+    "redux-thunk": "^2.1.0"
   },
   "devDependencies": {
-    "babel-plugin-transform-unicode-property-regex": "^2.0.1",
     "jest-expo": "1.0.1",
     "redux-logger": "^2.7.4"
   }
